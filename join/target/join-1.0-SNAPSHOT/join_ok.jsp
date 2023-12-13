@@ -15,6 +15,7 @@
     String gender = request.getParameter("gender");
 
     // 1.변수선언
+//    TODO : 이 부분 바꿔줘야함.
     String url = "jdbc:oracle:thin:@localhost:1521/XEPDB1";
     String uid = "JSP";
     String upw = "JSP";

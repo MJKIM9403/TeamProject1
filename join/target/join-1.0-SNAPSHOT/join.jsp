@@ -10,10 +10,10 @@
 <%--    <style>--%>
 <%--        /*@import url("signUpCss3.css");*/--%>
 <%--    </style>--%>
-<%--    <!-- 자바스크립트(유효성검사 해당) -->--%>
-<%--    <script src ="signUpjs3.js"></script>--%>
-<%--    <!-- 다음 우편번호찾기 API -->--%>
-<%--    <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>--%>
+    <!-- 자바스크립트(유효성검사 해당) -->
+    <script src ="signUpjs3.js"></script>
+    <!-- 다음 우편번호찾기 API -->
+    <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
 </head>
 <body>
 
