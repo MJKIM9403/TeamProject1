@@ -74,14 +74,14 @@
 
         <div id="container">
             <div class="row_group">
-                <div class="userInput m-5 input-group">
-                    <div class="col-sm-10">
-                        <h4 class="list">아이디</h4>
+                <div class="userInput m-5">
+                    <h4 class="list">아이디</h4>
+                    <div class="input-group">
                         <!-- 아이디 입력 -->
                         <input type="text" id="id" class="form-control form-control-sm" maxlength="20" placeholder="아이디를 입력하세요.">
+                        <!--아이디 중복확인-->
+                        <input type="button" value="중복 확인" class="btn btn-primary btn-sm" onclick="">
                     </div>
-                    <!--아이디 중복확인-->
-                    <input type="button" value="중복 확인" class="btn btn-primary btn-sm" onclick="">
                 </div>
 
                 <div class="userInput m-5">
@@ -92,31 +92,33 @@
 
                 <!-- 비밀번호 재확인 입력 -->
                 <div class="userInput m-5">
-                    <h3 class="list">비밀번호 재확인</h3>
+                    <h4 class="list">비밀번호 재확인</h4>
                     <input type="password" id="pwCheck" class="form-control form-control-sm" maxlength="20" placeholder="입력한 비밀번호를 확인해주세요.">
                 </div>
 
                 <!-- 이메일 입력 -->
                 <div class="userInput m-5">
-                    <h3 class="list">비밀번호 재확인</h3>
-                    <input type="password" id="emailCheck" class="form-control form-control-sm" placeholder="이메일을 입력해주세요.">
-                    <!--이메일 인증-->
-                    <input type="button" value="인증하기" class="btn btn-primary btn-sm" onclick="">
+                    <h4 class="list">비밀번호 재확인</h4>
+                    <div class="input-group">
+                        <input type="password" id="emailCheck" class="form-control form-control-sm" placeholder="이메일을 입력해주세요.">
+                        <!--이메일 인증-->
+                        <input type="button" value="인증하기" class="btn btn-primary btn-sm" onclick="">
+                    </div>
                 </div>
 
                 <!-- 성명 입력 -->
                 <div class="userInput m-5">
-                    <h3 class="list">성명</h3>
+                    <h4 class="list">성명</h4>
                     <input type="text" id="name" class="form-control form-control-sm" maxlength="20" placeholder="이름을 입력해주세요.">
                 </div>
                 <!-- 닉네임 입력 -->
                 <div class="userInput m-5">
-                    <h3 class="list">닉네임</h3>
+                    <h4 class="list">닉네임</h4>
                     <input type="text" id="nickname" class="form-control form-control-sm" maxlength="10" placeholder="닉네임을 입력해주세요.">
                 </div>
 
                 <div class="col text-center">
-                    <input type="submit" value="가입" class="btn btn-primary btn-lg">
+                    <input type="submit" value="가입" class="btn btn-primary btn-md">
                 </div>
 
 
