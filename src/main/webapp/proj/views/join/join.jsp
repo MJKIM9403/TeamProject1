@@ -74,7 +74,7 @@
 
         <div id="container">
             <div class="row_group">
-                <div class="userInput m-5 form-group-row">
+                <div class="userInput m-5 input-group">
                     <div class="col-sm-10">
                         <h4 class="list">아이디</h4>
                         <!-- 아이디 입력 -->

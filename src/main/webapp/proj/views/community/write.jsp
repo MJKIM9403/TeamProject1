@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 <html>
 <head>
-    <title>프로젝트 이름</title>
+    <title>Title</title>
 </head>
 <body>
 
